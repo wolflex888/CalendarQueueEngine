@@ -11,3 +11,6 @@ The header file for the simulation is called sim.h and was derived from the samp
 file that Dr. Fujimoto gave us as a sample. 
 
 The programs need to be compiled together:gcc HW3_App.c engine.c
+
+## Function
+This program simulates a call center and try to queue the customer to each representative. The application is separated into two parts. The simulation part simulates the incoming calls and outgoing calls and the queueing engine schedules the queues using calandar queue described in Brown paper.
